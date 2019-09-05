@@ -12,5 +12,5 @@ print("Value is", value)
 
 
 #{'name': 'Archie', 'identity': 'Student', 'age': 17}
-Key is Archie
-Value is Archie
+#Key is Archie
+#Value is Archie
