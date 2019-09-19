@@ -17,7 +17,7 @@ def history(l):
             #g=l[i+1]
             #z = list(zip(f,g))
             #print(z)
-            print("["+ l[i]+"->"+l[i+1]+ "]\n")
+            print("["+ l[i-1]+"->"+l[i]+ "]\n")
 while True:
     n=int(input("Enter your choice\n 1:Convert from  Fahrenheit to Celsius \n 2:Convert from Celcius to Fahrenheit\n 3:View History\n"))
     if n == 1:
