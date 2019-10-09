@@ -13,6 +13,18 @@ sum=HourMinute(num1)
 print("The hours and minutes are :",sum)
 
 #4
+from datetime import date
+def AgeConvert(date2):
+    date1=date.today()
+    return (date1.year-date2.year)
+
+print("Enter date in dd-mm-yyyy")
+year=int(input())
+month=int(input())
+datev=int(input())
+date2=date(year,month,datev)
+age= AgeConvert(date2)
+print(age)
 
 #5
 def OddRange(num1,num2):
