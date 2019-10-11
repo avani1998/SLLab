@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!Claculate the number of hours and minutes>
+
+<script type = "text/javascript">
+	var num,a,b,c;
+	function HourMinute()
+	{
+		num = parseInt(document.getElementById("firstNumber").value);
+		a=Math.floor(num/60);
+		b=num%60;
+		c=a.toString()+":"+b.toString();
+		document.getElementById("result").innerHTML = c;
+	}
+</script>
+<title> Javascript program to convert time into hours:minutes </title>
+<style type="text/css">
+body{margin: 30px;}
+</style>
+<head>
+<body>
+	<form>
+		Enter Number : <input type ="text" id="firstNumber" /><br>
+		<input type="button" onClick="HourMinute()" Value="Convert" />
+	</form>
+	<p>The result is : <br><span id ="result"></span>
+	</p>
+</body>
+</html>
+
+		
