@@ -1,2 +1,2 @@
 # SLLab
-Programs taught in Scripting Lab
+Python and javascript programs
