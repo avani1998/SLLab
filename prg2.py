@@ -1,3 +1,4 @@
+#Create a dictionary to hold student details with register number as key. Print those student details whose register numbers are even  
 students = {'1MS17IS148': 'Asha', '1MS17IS132': 'Ashok', '1MS17IS223' : 'Musaddi lal'}
 list1= ["value1", "value2", "value3", "value4"]
 list2 = []
