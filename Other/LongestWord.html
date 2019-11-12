@@ -1,0 +1,31 @@
+<!DOCTYPE>
+<html>
+<head>
+	<script type="text/javascript">
+	function longest()
+	{
+		str=document.getElementById("string").value;
+		var strsp;
+		strsp=str.split(' ');
+		var longWord=0,i;
+		for(i=0;i<strsp.length;i++)
+		{
+			if(strsp[i].length>longWord)
+			{
+				longWord=strsp[i].length;
+			}
+		}
+		document.getElementById("result").innerHTML=longWord;
+	}	
+			
+</script>
+<title> Longest word in a string</title>	
+</head>
+<body>
+	<form>
+		String:<input type="text" id="string"/><br>
+		<input type="button" onClick="longest()" Value="Calculate"/>
+	</form>
+	<p>The result is : <br><span id="result"></span></p>
+<body>
+<html>
