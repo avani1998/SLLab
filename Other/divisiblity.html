@@ -1,0 +1,38 @@
+<!DOCTYPE>
+<html>
+<head>
+	<script type ="text/javascript">	
+	function divisiblity()
+	{
+		num=parseInt(document.getElementById("numb").value);
+		var bool;
+		 if (num%3==0 && num%7==0)
+		 {
+		 	document.getElementById("result").innerHTML="Divisible by 3 and 7";
+		 }
+		 else if (num%3==0)
+		 {
+		 	document.getElementById("result").innerHTML="Divisible by 3 only";
+		 }
+		 else if (num%7==0)
+		 {
+		 	document.getElementById("result").innerHTML="Divisible by 7 only";
+		 }
+		 else {
+		 	document.getElementById("result").innerHTML="Divisible neither";
+		 }
+
+}		 
+</script>
+<title>Determine if number is divisible by 3 or 7</title>
+</head>
+<body>
+	<form>
+		Number:<input type="number" id="numb">
+		<input type="button" onClick="divisiblity()" Value="Check">
+	</form>
+	<p> The result is<br><span id="result"></span></p>
+</body>
+</html>
+		
+
