@@ -1,0 +1,31 @@
+<!DOCTYPE>
+<html>
+<head>
+	<script type="text/javascript">
+	function mul()
+	{
+		num=document.getElementById("numb").value;
+		var res;
+		res=num*2;
+		document.getElementById("result").innerHTML=res;
+	}
+	function itself()
+	{
+		num=document.getElementById("numb").value;
+		var res;
+		res=num*num;
+		document.getElementById("result").innerHTML=res;
+	}
+	
+</script>
+<title>Creating a form with two buttons</title>
+<head>
+<body>
+	<form>
+	Enter:<input type="number" id="numb">
+	<input type="button" onClick="mul()" Value="Multiply By 2">
+	<input type="button" onClick="itself()" Value="Multiply by itself">
+	</form>
+<p> The result is<br> <span id="result"></span></p>
+</body>
+</html>
