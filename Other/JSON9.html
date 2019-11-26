@@ -1,0 +1,40 @@
+<!DOCTYPE>
+<html>
+<head>
+	<script type="text/javascript">
+	var myobj;
+	myobj={"string":" ",
+		"Number1":"0",
+		"Number2":"0"
+		}
+	function add()
+	{
+		var str=document.getElementById('string1').value;
+		var a=parseInt(document.getElementById('num1').value);
+		var b=parseInt(document.getElementById('num2').value);
+		var c=a+b;
+		myobj.string=str;
+		myobj.Number1=a;
+		myobj.Number2=b;
+		document.write(c+"\n");
+		console.log(c);
+		document.write(myobj.string+"\n");
+		document.write(myobj.Number1+"\n");
+		document.write(myobj.Number2+"\n");
+		console.log(myobj);
+	}
+	
+</script>
+<title>JSON program</title>
+</head>
+<body>
+<form>
+	String:<input type="text" id="string1">
+	Number1:<input type="num1" id="num1">
+	Number1:<input type="num2" id="num2">
+	<input type="button" onClick="add()" Value="Add">
+</form>
+<p> <br><span id="result"> </span></p>
+</body>
+</html>
+		
