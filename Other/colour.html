@@ -1,0 +1,25 @@
+<!DOCTYPE>
+<html>
+<head>
+	<p id="demo"></p>
+	<script type="text/javascript">
+	var colorCode;
+	colorCode={
+	"red":"(255,0,0)",
+	"green":"(0,255,0)",
+	"blue":"(0,0,255)"
+	}
+	var x="",i;
+	x+="<h1>Color Code</h1>";
+	for (i in colorCode)
+	{
+		x+=i+"\t"+colorCode[i]+"\n"+"<br>";
+	}
+	document.getElementById("demo").innerHTML=x;
+</script>
+<title>JSON program</title>
+</head>
+<body>
+</body>
+</html>
+		
