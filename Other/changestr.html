@@ -1,0 +1,42 @@
+<!DOCTYPE>
+<html>
+<head>
+<script>
+	function ChnageString()
+	{
+		str2="";
+		str=document.getElementById("string").value;
+		for(var i =0;i<str.length;i++)
+		{
+			if (str.charAt(i)>='a' && str.charAt(i)<='z')
+				str2=str2+String.fromCharCode(str.charCodeAt(i)+1);
+			else
+				str2=str2+str.charAt(i);
+		}
+		console.log(str2)
+		str3="";
+		for (var i=0;i<str2.length;i++)
+		{
+			var b=str2.charAt(i)	
+			if(b=='a'|| b=='e'||b=='i'||b=='o'||b=='u')
+			{
+				nb=b.toUpperCase();
+				str2=str2.replace(b,nb);
+			}
+		}
+		console.log(str2);
+		document.write(str2);
+	}
+	
+</script>
+</head>
+<body>
+<form>
+	String :<input type="text" id="string">
+	<input type="button" onClick="ChnageString()" Value="Change">
+</form>
+</body>
+</html>
+
+		
+				
