@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html>
+<head>
+<script>
+	function AgeConvert()
+	{
+		var str=document.getElementById("dob").value;
+		var nstr=str.split("-");
+		console.log(nstr);
+		var date=parseInt(nstr[0]);
+		var month=parseInt(nstr[1]);
+		var year=parseInt(nstr[2]);
+		console.log(date+" "+month+" "+year);
+		var d=new Date();
+		var curdate=d.getDate();
+		var curmonth=d.getMonth()+1;
+		var curyear=d.getFullYear();
+		var age=curyear-year;
+		if(curmonth<month)
+			age--;
+		else if (curmonth==month)
+		{
+			if(curdate<date)
+				age--;
+		}
+		document.getElementById("result").innerHTML=age;
+		//document.write(age);
+	}
+</script>
+<body>
+<form>
+	Enter DOB:<input type="text" id="dob">
+	<input type="button" onClick="AgeConvert()" Value="Calculate">
+</form>
+<p>The age is	<span id="result"></span>
+</body>
+</html>
+	
+			
