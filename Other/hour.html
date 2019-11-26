@@ -1,0 +1,26 @@
+<!DOCTYPE>
+<html>
+<head>
+	<script type="text/javascript">
+	function HourMinute()
+	{
+		var number=parseInt(document.getElementById("num").value);	
+		var a=number%60;
+		console.log(a);
+		var b=Math.floor(number/60);
+		console.log(b);
+		var c=String(b)+":"+String(a);
+		document.getElementById("result").innerHTML=c;
+	}
+</script>
+<title>Display time in Hours:Minute</title>
+</head>
+<body>
+<form>
+	Number:<input type="number" id=num>
+	<input type="button" onClick="HourMinute()" Value="Click">
+</form>
+<p> <br><span id="result"> </span></p>
+</body>
+</html>
+		
