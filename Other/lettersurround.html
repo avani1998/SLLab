@@ -1,0 +1,42 @@
+<!DOCTYPE>
+<html>
+<head>
+<script>
+	function letterSurround()
+	{
+		str=document.getElementById("string").value;
+		if ((str.charAt(0)>='a'&& str.charAt(0)<='z') || (str.charAt(str.length-1)>='a'&& str.charAt(str.length-1)<='z'))
+		{
+			console.log("false");
+		}
+		
+		else 
+		{
+			for (var i=1;i<str.length-1;i++)
+			{
+				if(str.charAt(i)>='a' && str.charAt(i)<='z')
+				{
+					if(str.charAt(i-1)!='+' || str.charAt(i+1)!='+')
+						console.log("false");
+					else 
+					continue;	
+				}
+				else 
+				continue;	
+			}
+			console.log("true");
+		}
+	}
+	
+</script>
+</head>
+<body>
+<form>
+	String :<input type="text" id="string">
+	<input type="button" onClick="letterSurround()" Value="Determine">
+</form>
+</body>
+</html>
+
+		
+				
