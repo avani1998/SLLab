@@ -1,0 +1,73 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<title>Cars Catalog</title>
+		<script type="text/javascript" src="JSONDemo.js"></script>
+		<style>
+			table {
+				text-align: center;
+				width: 100%;
+			}
+
+			td {
+					font-size: xx-large;
+			}
+			th {
+				font-size: x-large;
+				background-color: #4CAF50;
+				color: white;
+			}
+			th:hover {
+				background-color: #4CA;
+
+			}
+		</style>
+	</head>
+	<script>
+	
+function mouseOver() {
+    document.getElementById("cmodel1").style.color = "red";
+	document.getElementById("cmodel2").style.color = "green";
+	document.getElementById("cmodel3").style.color = "pink";
+}
+
+function mouseOut() {
+myObj = {
+    "name":"John",
+    "age":30,
+    "cars":[ "Ford", "BMW", "Fiat" ]
+};
+    document.getElementById("cmodel1").style.color = "black";
+	document.getElementById("cmodel2").style.color = "blue";
+	document.getElementById("cmodel3").style.color = "maroon";
+	document.getElementById("cars-table").removeAttribute('hidden');
+	var myObj, i, x = ""; 
+    
+for (i in myObj.cars) {
+    x += myObj.cars[i] + "<br>";
+}
+document.getElementById("demo1").innerHTML = x;
+}
+</script>
+
+
+	<body>
+		<h3 style="text-align:center">Hover Over</h3><br>
+		<table>
+			<tr id="menu">
+			<th id=cmodel1 onmouseover="mouseOver()" onmouseout="mouseOut()">Car Model 1</th>
+			<th id=cmodel2 onmouseover="mouseOver()" onmouseout="mouseOut()">Car Model 2</th>
+			<th id=cmodel3 onmouseover="mouseOver()" onmouseout="mouseOut()">Car Model 3</th>
+			</tr>
+		</table><br>
+		<table class="table" id="cars-table" hidden>
+			<tr><td>Car Types</td><td id="demo1"></td></tr>
+			
+			
+			
+		</table>
+		<p id="demo1"></p>
+		<hr><br>
+		
+	</body>
+</html>
