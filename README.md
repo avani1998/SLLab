@@ -1,2 +1,2 @@
-# SLLab
-Python and javascript programs
+# Scripting Lab Programs Submission
+
