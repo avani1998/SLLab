@@ -42,4 +42,10 @@
 6. Web Applications using Flask
     1. ATM app
     2. Shopping Cart app
-7. Few More...
+
+
+![Black Friday Dataset](https://github.com/avani1998/SLLab/blob/master/Screenshots/Screenshot%20(2).png)
+![Visualization on Black Friday dataset](https://github.com/avani1998/SLLab/blob/master/Screenshots/Screenshot%20(3).png)
+![Iris dataset](https://github.com/avani1998/SLLab/blob/master/Screenshots/Screenshot%20(4).png)
+![Python Programs](https://github.com/avani1998/SLLab/blob/master/Screenshots/Screenshot%20(5).png)
+![Atomic Dictionary](https://github.com/avani1998/SLLab/blob/master/Screenshots/Screenshot%20(6).png)
