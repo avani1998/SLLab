@@ -44,8 +44,15 @@
     2. Shopping Cart app
 
 
-![Black Friday Dataset](https://github.com/avani1998/SLLab/blob/master/Screenshots/Screenshot%20(2).png)
-![Visualization on Black Friday dataset](https://github.com/avani1998/SLLab/blob/master/Screenshots/Screenshot%20(3).png)
-![Iris dataset](https://github.com/avani1998/SLLab/blob/master/Screenshots/Screenshot%20(4).png)
-![Python Programs](https://github.com/avani1998/SLLab/blob/master/Screenshots/Screenshot%20(5).png)
-![Atomic Dictionary](https://github.com/avani1998/SLLab/blob/master/Screenshots/Screenshot%20(6).png)
+![Black Friday Dataset](https://github.com/avani1998/SLLab/blob/master/Screenshots/Screenshot%20(2).png "Black Friday Dataset")
+![Visualization on Black Friday dataset](https://github.com/avani1998/SLLab/blob/master/Screenshots/Screenshot%20(3).png "Visualization on Black Friday dataset")
+![Iris dataset](https://github.com/avani1998/SLLab/blob/master/Screenshots/Screenshot%20(4).png "Iris dataset")
+![Python Programs](https://github.com/avani1998/SLLab/blob/master/Screenshots/Screenshot%20(5).png "Python Programs")
+![Atomic Dictionary](https://github.com/avani1998/SLLab/blob/master/Screenshots/Screenshot%20(6).png "Atomic Dictionary")
+![Age Program](https://github.com/avani1998/SLLab/blob/master/Screenshots/age.png "Age Program")
+![car](https://github.com/avani1998/SLLab/blob/master/Screenshots/car.png "Car model program in html")
+![longest word](https://github.com/avani1998/SLLab/blob/master/Screenshots/longestword.png "Longest Word in a Sentence")
+![html](https://github.com/avani1998/SLLab/blob/master/Screenshots/pic1.png)
+![test](https://github.com/avani1998/SLLab/blob/master/Screenshots/pic2.png "Test programs")
+![data science](https://github.com/avani1998/SLLab/blob/master/Screenshots/pic3.png "Data Science")
+![flask](https://github.com/avani1998/SLLab/blob/master/Screenshots/store.png "Flask Programs")
