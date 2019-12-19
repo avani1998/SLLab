@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<titile>Author details</title>
+	</head>
+	<body>
+		<script>
+			author=[
+				
+				{'name':'Rosa',
+				'title':'On the edge',
+				'country':'USA',
+				'year':'2010'
+				},
+				{
+				'name':'Paula',
+				'title':'Fire on Fire',
+				'country':'USA',
+				'year':'2009'},
+				{
+				'name':'Freddi',
+				'title':'The day the owl came',
+				'country':'USA',
+				'year':'2010'},
+				{
+				'name':'Rosa',
+				'title':'On the edge of the world',
+				'country':'USA',
+				'year':'2010'}]
+		</script>
+		<table width="200" border="10%">
+			<tr>
+			<th>Name</th>
+			<th>Title</th>
+			<th>Country</th>
+			<th>Year</th>
+			</tr>
+		<script>
+			for(i=0;i<2;i++)
+			{
+				document.write("<tr><td>"+author[i]['name']+"</td>"+"<td>"+author[i]['title']+"</td>"+"<td>"+author[i]['country']+"</td>"+"<td>"+author[i]['year']+"</td></tr>");
+			}
+		</script>
+		</table>
+		<script>
+			for(i=2;i<4;i++)
+			{
+				document.write("<p>"+author[i]['name']+"<br>"+author[i]['title']+"<br>"+author[i]['country']+"<br>"+author[i]['year']+"<br></p>");
+			}
+		</script>
+	</body>
+<html>	
