@@ -4,19 +4,19 @@ def toCelsius(temp):
         newtemp= (temp-32)*9/5
         print("The temperate is: ",newtemp,"C")
         b=str(newtemp)+"C"
-        l.append(newtemp)
+        l.extend((a,b))
 def toFahren(temp):
         a=str(temp)+"C"
         newtemp=(temp+32)*(5/9)
         print("The temperate is: ",newtemp,"F")
         b=str(newtemp)+"F"
-        l.append((a,b))
-def history(l):
+        l.extend((a,b))
+def history():
         for i in range(0,len(l)):
             #f=l[i]
             #g=l[i+1]
             #z = list(zip(f,g))
-            #print(z)
+            print(l)
             print("["+ l[i-1]+"->"+l[i]+ "]\n")
 while True:
     n=int(input("Enter your choice\n 1:Convert from  Fahrenheit to Celsius \n 2:Convert from Celcius to Fahrenheit\n 3:View History\n"))
@@ -27,6 +27,6 @@ while True:
         temp = int(input("Enter the temperate in Celsius"))
         toFahren(temp)
     elif n==3:
-        history(list)
+        history()
     else:
         print("Invaid input")
