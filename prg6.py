@@ -29,3 +29,9 @@ while(True):
                 s3.display()
     elif i==3:
                 exit(0)
+#or
+#Student("Avani",21,[20,20,20]).display()
+#Student("Krisha",11,[20,20,20]).display()
+#s3=Student("",0,[0,0,0])
+#s3.accept()
+#s3.display()
