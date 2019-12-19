@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title>Shoppping Cart</title>
+	<form>
+		Item:<input type="text" id=item><br>
+		Quantity:<input type="number" id="quantity"><br>
+		Rate:<select id="price" required>
+                <option value="300">300</option>
+                <option value="500">500</option>
+                <option value="700">700</option>
+            		</select><br><br>
+            
+            <input type="button" id="sub" Value="Submit" onClick="Calc()">
+            <br><br>
+            <p>Amount to be paid is</p>
+            <p id="res"></p>
+            <input type="button" id="paid" Value="Pay" onClick="funpaid()">
+         </form>
+         <script>
+         var amount
+         function Calc()
+         {
+         	var quantity,rate;
+         	quantity =parseInt(document.getElementById("quantity").value);
+         	rate =parseInt(document.getElementById("price").value);
+         	amount=quantity*rate;
+         	document.getElementById("res").innerHTML=amount;
+         }
+         function funpaid()
+         {
+         	alert("Rs. "+amount+" Paid");
+         	
+         }
+         </script>
+<body>
+</body>      
+</html>
